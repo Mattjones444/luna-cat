@@ -10,3 +10,24 @@ body {
 .navbar {
     background-color: #DCD28C;
 }
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.about-luna{
+    background-size: cover;
+    width:100%;
+    margin-top: 80px;
+    border: 7px solid #DCD28C;
+}
+
+.luna-info-header {
+    margin-top: 80px;
+    font-size: 32px;
+    color: #fff;
+
+}
